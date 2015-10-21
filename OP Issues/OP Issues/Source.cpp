@@ -2,27 +2,35 @@
 using namespace std;
 void DeezNuts()
 {
-	cout << "Pig Latin";
+	cout << "Pig Latin" << endl;
 }
-int DeezNuts2()
+void DeezNuts2()
 {
 	char Pig[10] = { "Pig Latin" };
 	for (int i = 0; i < 10; i++)
-		return (int(Pig[i]));
+		cout << (int(Pig[i])) << endl;
+	system("pause");
 }
-char DeezNuts3()
+void DeezNuts3()
 {
 	int OhReally[8] = { 79,104,82,101,97,108,108,121 };
-	for (int i = 0; 1 < 8; i++)
-		return (char(OhReally[i]));
+	for (int i = 0; i < 8; i++)
+		cout << (char(OhReally[i])) << endl;
+	system("pause");
 }
 float DeezNuts4()
 {
-
+	float num2 = 10000, num1 = 756, tot;
+	tot = num1 / num2;
+	return tot;
+	system("pause");
 }
 double DeezNuts5()
 {
-
+	double num2 = 10000000000000000000, num1 = 345327572345723, tot;
+	tot = num2 / num1;
+	return tot;
+	system("pause");
 }
 int main()
 {
@@ -30,11 +38,11 @@ int main()
 	cout << strlen(Stuff) << "\n";
 	for (int i = 0; i < strlen(Stuff); i++)
 		cout << Stuff[i] << endl;
-	system("pause");
 	DeezNuts;
-	cout << DeezNuts2();
-	cout << DeezNuts3();
-	cout << DeezNuts4();
-	cout << DeezNuts2();
+	DeezNuts2();
+	DeezNuts3();
+	cout << DeezNuts4() << endl;
+	cout << DeezNuts5() << endl;
+	system("pause");
 
 }
