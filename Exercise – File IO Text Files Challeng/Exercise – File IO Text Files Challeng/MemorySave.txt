@@ -1,0 +1,4 @@
+Int: 69
+Flaot: 69.69
+Bool: 0
+Char: D

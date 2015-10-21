@@ -19,16 +19,19 @@ void ASCII1b(char chr[], int num)
 		}
 		else
 			cout << chr[i] << endl;
+		
 	}
 }
 void ASCII2(char **ray)
 {	
 	int inarray[3][8];
 	for (int i = 0; i < 3; i++)
-		for (int j = 0; j <= 6; j++)
+		for (int j = 0; j <= 7; j++)
 		{
+			if (((int)ray[i][j + 1]) == 0)
+				j++;
 			inarray[i][j] = ((int)ray[i][j]);
-			//cout << ray[i][j] << endl;
+
 			cout << inarray[i][j] << endl;
 		}
 	//system("pause");
@@ -36,11 +39,9 @@ void ASCII2(char **ray)
 
 void testfunc(char **ray) {		
 }
+
 int main () {
 	char *ray][]
-	dsgermonr\eg			
-		
-			njuhilbsewdfg	W8TGB	2
 	testfunc((char**)ray);
 }*/
 }
